@@ -1,0 +1,648 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jastin's_Portfolio_Web</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Include jQuery (if not already included) -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- Include Typed.js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <link rel="stylesheet" href="css/blue.css" type="text/css">
+
+
+  <!-- Live Style Switcher -->
+  <link rel="stylesheet" class="alternate-style" title="pink" href="css/pink.css" type="text/css" disabled="">
+  <link rel="stylesheet" class="alternate-style" title="blue" href="css/blue.css" type="text/css" disabled="">
+  <link rel="stylesheet" class="alternate-style" title="orange" href="css/orange.css" type="text/css" disabled="">
+  <link rel="stylesheet" class="alternate-style" title="yellow" href="css/yellow.css" type="text/css" disabled="">
+  <link rel="stylesheet" class="alternate-style" title="green" href="css/green.css" type="text/css" disabled="">
+
+  <link rel="stylesheet" href="css/panel.css" type="text/css">
+
+</head>
+
+<body class="dark">
+
+  <!-- Pre Loader -->
+  <div class="preloader">
+    <div class="loader">
+    </div>
+  </div>
+
+  <main class="main-container">
+
+    <!-- Aside bar 
+    ========================================================-->
+    <aside class="aside">
+      <div class="nav-toggler">
+        <span></span>
+              </div>
+      <div class="aside-inner" style="display: flex; flex-direction: column;">
+        <div class="logo" style="align-self: flex-start;">
+          <a href="/">SE Jastin</a>
+        </div>
+               <ul class="nav">
+          <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+          <!-- <li><a href="#Skills"><i class="fa fa-cogs"></i> Skills</a></li> -->
+          <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
+          <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Projects</a></li>
+          <li><a href="#blog"><i class="fa fa-envelope"></i> Blog</a></li>
+          <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+        </ul>
+        <div class="copyright">
+        © 2025 All Rights Reserved By Jastin Agaziva.
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+      <!-- Home Section -->
+      <section class="home section active" id="home">
+        <div class="container">
+          <div class="intro">
+            <img src="images/JastinAG.jpg" alt="Jastin Agaziva Profile" class="shadow-dark">
+            <h1>Jastin Agaziva Mukavi</h1>
+            <p>I am <span class="multiText"> </span></p>
+            <!-- <p>I am an Apprentice Software Engineer and a Tech Enthusiast. </p> -->
+            <div class="social-links">
+              <a href="https://x.com/AgazivaJastin?t=846s6yRSAfyCR9RDkmEAKA&s=09" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://github.com/JastinAG" target="_blank"><i class="fa fa-github"></i></a>
+              <a href="https://instagram.com/jastineagaziva?igshid=MzMyNGUyNmU2YQ==" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/jastin-agaziva-21b425235" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+         <!--Chatbot script -->
+
+        <script id="messenger-widget-b" src="https://cdn.botpenguin.com/website-bot.js" defer></script>
+      </section>
+
+      <!-- About Section 
+      ============================================================ -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h2>Hi, <br>I'm Jastin Agaziva and <span>a Software developer</span></h2>
+                  <p>I am a highly motivated tech enthusiast with a degree in Computer Science and having a keen interest in Software Engineering and Cyber Security Analysis. My professional trajectory has shaped me into an open-minded and critical thinker with strengths in project management. <br> I am eager to contribute my blend of technical prowess, creativity, and project management to a like-minded team and embrace the challenge of leveraging technology for success.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <div class="info-item padd-15">
+                      <p>Age : <span>22</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Institution : <span>Daystar University</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Degree : <span>B.Sc. Computer Science</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Phone : <span>+254 707160906</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>City : <span>Nairobi, Kenya</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Freelance : <span>Available</span></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="#contact" class="btn" onclick="if (confirm('ALERT: Ask permission from Jastin before downloading!!')) { window.location.href = ''; return false; }">Download CV</a>
+                      <!--<a href="#contact" class="btn" onclick="if (confirm('Ask permission from Jastine before downloading?')) window.location.href = 'jastinprofile.pdf'; return false;">Download CV</a>
+
+    <script>-->
+                      <a href="#contact" data-section-index="0" class="btn hire-me">Hire
+                        Me</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills padd-15">
+                  <div class="row">
+                    <div class="skill-item padd-15">
+                      <h5>Web development (HTML, CSS, And JS)</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 100%"></div>
+                        <div class="skill-percent">100%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Cyber Security</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 90%"></div>
+                        <div class="skill-percent">90%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>IOT and Hardware</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 95%"></div>
+                        <div class="skill-percent">95%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Scripting and Automation</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 80%"></div>
+                        <div class="skill-percent">80%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Machine Learning and AI</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 75%"></div>
+                        <div class="skill-percent">75%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="education padd-15">
+                  <h3 class="title">Education & Certifications</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- Timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2021 to 2025
+                          </h6>
+                          <h4 class="timeline-title">B.Sc. Computer Science | Daystar University</h4>
+                          <p class="timeline-text">Currently pursuing a degree in Computer Science with focus on software development and cybersecurity.</p>
+                        </div>
+                        <!-- Timeline Item end -->
+                        <!-- Timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2024
+                          </h6>
+                          <h4 class="timeline-title">Professional Certifications</h4>
+                          <p class="timeline-text">
+                            • CompTIA Security+ Certification – Expertise in cybersecurity best practices & threat mitigation<br>
+                            • Cisco Certified Network Associate (CCNA) – Networking, infrastructure management, and security protocols<br>
+                            • Microsoft ITIL Foundations Certification – IT service management & workflow optimization<br>
+                            • AWS Certified Cloud Practitioner – Cloud security, infrastructure deployment, and AI integration<br>
+                            • Certified Ethical Hacker (CEH) – Advanced penetration testing & cybersecurity defense mechanisms
+                          </p>
+                        </div>
+                        <!-- Timeline Item end -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experience padd-15">
+                  <h3 class="title">Experience</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- Timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2022 to Present
+                          </h6>
+                          <h4 class="timeline-title">System Administration</h4>
+                          <p class="timeline-text">In my professional capacity, I possess expertise in software installation and have demonstrated proficiency
+                            in configuring and maintaining various software applications and operating systems on personal computers. 
+                            My skills extend to troubleshooting both hardware and networking issues, where I excel in diagnosing and
+                             resolving problems related to PC functionality. This encompasses troubleshooting tasks such as IP configurations 
+                             and ensuring seamless internet connectivity. My hands-on experience in these areas reflects a comprehensive understanding
+                              of IT systems and a proven ability to address technical challenges effectively.</p>
+                        </div>
+                        <!-- Timeline Item end -->
+                        <!-- Timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2020 to Present
+                          </h6>
+                          <h4 class="timeline-title">Web Design</h4>
+                          <p class="timeline-text">Since 2020 I have been building websites for clients and personal projects as a professional web designer.</p>
+                        </div>
+                        <!-- Timeline Item end -->
+                        <!-- Timeline Item -->
+                                                <!-- Timeline Item end -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Service Section 
+      ============================================================ -->
+      <section class="service section" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>My Services</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Service Item 1: Logo Design -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                <h4>Software Development</h4>
+                <p>I use programming languages and software development tools to create, test, and maintain software applications. My tasks in software development include custom software development, web application development, mobile app development and much more.</p>
+              </div>
+            </div>
+            <!-- Service Item 1 End -->
+            <!-- Service Item 2: Web Design -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-laptop"></i></div>
+                <h4>PC Repair and Maintenance</h4>
+                <p>
+                  I provide efficient PC hardware repair and maintenance, guaranteeing optimal performance for computer systems. My expertise lies in diagnosing and resolving hardware issues, alongside implementing measures to maintain long-lasting computer health.                </p>
+              </div>
+            </div>
+            <!-- Service Item 2 End -->
+            <!-- Service Item 3: WordPress -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-wordpress"></i></div>
+                <h4>Professional writing</h4>
+                <p>With two years of experience, I excel in technical and academic writing. I possess the expertise to clearly articulate complex concepts while ensuring academic rigor and coherence.</p>
+              </div>
+            </div>
+            <!-- Service Item 3 End -->
+            <!-- Service Item 4: Web Development -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-code"></i></div>
+                <h4>Web Development</h4>
+                <p>Turn your digital ideas into reality with my web development solutions. I specialize in crafting
+                  robust
+                  and dynamic websites that are tailored to meet your specific business needs and objectives.</p>
+              </div>
+            </div>
+            <!-- Service Item 4 End -->
+            <!-- Service Item 5: DBMS -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-film"></i></div>
+                <h4>Database Management</h4>
+                <p>As a software developer, I have a strong knowledge of MySQL, a popular relational database management system .
+                 </p>
+              </div>
+            </div>
+            <!-- Service Item 5 End -->
+            <!-- Service Item 6: SEO Optimization -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-rocket"></i></div>
+                <h4>SEO Optimization</h4>
+                <p>Boost your online visibility and drive organic traffic to your website with my SEO optimization
+                  services.
+                </p>
+              </div>
+            </div>
+            <!-- Service Item 6 End -->
+            <!-- Service Item 7: Networking Solutions -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-laptop"></i></div>
+                <h4>Networking Solutions</h4>
+                <p>As an experienced Network Administrator with comprehensive expertise in all aspects of ISP network management, including IP addressing, DHCP, PPPoE, and more.
+                </p>
+              </div>
+            </div>
+            <!-- Service Item 7 End -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>My Projects</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-filter padd-15">
+              <button type="button" class="active" data-filter="all">All</button>
+              <button type="button" data-filter="IOT and Machine Learning">IOT and Machine Learning</button>
+              <button type="button" data-filter="web-design">Web Designs</button>
+              <button type="button" data-filter="wordpress">Software development</button>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="web-design">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/1.jpg" alt="portfolio">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Web based application for problem solving</h4>
+                  <div class="icon"><i class="fa fa-search"></i></div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="web-design">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/2.jpg" alt="portfolio">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Web based application for problem solving</h4>
+                  <div class="icon"><i class="fa fa-search"></i></div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="web-design">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/3.jpg" alt="portfolio">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Web based application for problem solving</h4>
+                  <div class="icon"><i class="fa fa-search"></i></div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="IOT and Machine Learning">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/4.jpg" alt="portfolio">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Plant monitoring system using arduino. (Project still ongoing...)</h4>
+                  <div class="icon"><i class="fa fa-search"></i></div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="wordpress">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/5.jpg" alt="portfolio">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Software Development</h4>
+                  <div class="icon"><i class="fa fa-search"></i></div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+            <!-- Portfolio Item -->
+            <!-- <div class="portfolio-item padd-15" data-category="web-design">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/mine.jpg" alt="portfolio">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Web Design</h4>
+                  <div class="icon"><i class="fa fa-search"></i></div>
+                </div>
+              </div>
+            </div> -->
+            <!-- Portfolio Item End-->
+      
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Section
+      =========================================================================== -->
+      <section class="blog section" id="blog">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Latest Blog Posts</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Blog Item 1 -->
+            <div class="blog-item padd-15">
+              <div class="blog-item-inner shadow-dark">
+                <div class="blog-img">
+                  <img src="images/1_1.jpg" alt="Responsive Web Design">
+                  <div class="blog-date">
+                    June 14, 2023
+                  </div>
+                </div>
+                <div class="blog-info">
+                  <h4 class="blog-title">Mastering Responsive Web Design</h4>
+                  <p class="blog-description">In today's digital landscape, responsive web design is not just a trend;
+                    it's a
+                    necessity. Explore the principles and techniques behind creating websites that adapt seamlessly to
+                    various
+                    devices and screen sizes.</p>
+                  <p class="blog-tags">Tags: <a href="#">HTML</a>, <a href="#">CSS</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Item 1 End -->
+            <!-- Blog Item 2 -->
+            <div class="blog-item padd-15">
+              <div class="blog-item-inner shadow-dark">
+                <div class="blog-img">
+                  <img src="images/2_1.jpg" alt="Creative Slideshow">
+                  <div class="blog-date">
+                    June 4, 2023
+                  </div>
+                </div>
+                <div class="blog-info">
+                  <h4 class="blog-title">Unleashing Creativity with Slideshows</h4>
+                  <p class="blog-description">Discover innovative ways to create captivating slideshows that engage your
+                    audience. From stunning visuals to seamless transitions, this blog post explores the art of crafting
+                    memorable slideshows for your website.</p>
+                  <p class="blog-tags">Tags: <a href="#">HTML</a>, <a href="#">CSS</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Item 2 End -->
+            <!-- Blog Item 3 -->
+            <div class="blog-item padd-15">
+              <div class="blog-item-inner shadow-dark">
+                <div class="blog-img">
+                  <img src="images/3_1.jpg" alt="Image Gallery Lightbox">
+                  <div class="blog-date">
+                    July 4, 2023
+                  </div>
+                </div>
+                <div class="blog-info">
+                  <h4 class="blog-title">Enhancing User Experience with Image Gallery Lightboxes</h4>
+                  <p class="blog-description">Explore the benefits of incorporating image gallery lightboxes into your
+                    website
+                    design. From improved user experience to showcasing your visual content in style, this blog post
+                    sheds
+                    light on this valuable web design feature.</p>
+                  <p class="blog-tags">Tags: <a href="#">HTML</a>, <a href="#">CSS</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Item 3 End -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section
+      =========================================================================== -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- contact-info-item -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-map-marker"></i></div>
+              <h4>Address</h4>
+              <p>Nairobi, Kenya</p>
+            </div>
+            <!-- contact-info-item Ended -->
+            <!-- contact-info-item -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+              <h4>Call me On</h4>
+              <p>+254 707160906</p>
+            </div>
+            <!-- contact-info-item Ended -->
+            <!-- contact-info-item -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+              <h4>Email</h4>
+              <p>jastinagaziva@gmail.com</p>
+            </div>
+            <!-- contact-info-item Ended -->
+          </div>
+      <!-- Contact Form -->
+<div class="row">
+  <form class="contact-form padd-15" action="mailto:jastinagaziva@gmail.com" method="post">
+    <div class="row">
+      <div class="form-item col-6 padd-15">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Name*">
+        </div>
+      </div>
+      <div class="form-item col-6 padd-15">
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email*">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-item col-12 padd-15">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Subject*">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-item col-12 padd-15">
+        <div class="form-group">
+          <textarea class="form-control" placeholder="Your Message*"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 padd-15">
+        <button type="submit" class="btn">Send Message</button>
+      </div>
+    </div>
+  </form>
+</div>
+        </div>
+      </section>
+
+    </div>
+
+
+  </main>
+
+  <!-- Lightbox  -->
+  <div class="lightbox">
+    <div class="lightbox-content">
+      <div class="lightbox-close">×</div>
+      <img src="images/2.jpg" class="lightbox-img" onclick="nextItem()" alt="">
+      <div class="lightbox-caption">
+        <div class="caption-text"></div>
+        <div class="caption-counter"></div>
+      </div>
+    </div>
+    <div class="lightbox-controls">
+      <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+      <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+    </div>
+  </div>
+  <!-- Lightbox End -->
+  <!-- Live Style Switcher -->
+  <div class="style-switcher">
+    <div class="toggle-style-switcher">
+      <i class="fa fa-cog fa-spin"></i>
+    </div>
+    <h4>Style Switcher</h4>
+    <ul>
+      <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839;" onclick="setActiveStyle('pink')"></a></li>
+      <li><a href="javascript:void(0);" title="blue" style="background-color: #2196f3;" onclick="setActiveStyle('blue')"></a></li>
+      <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;" onclick="setActiveStyle('orange')"></a></li>
+      <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;" onclick="setActiveStyle('yellow')"></a></li>
+      <li><a href="javascript:void(0);" title="green" style="background-color: #72b626;" onclick="setActiveStyle('green')"></a></li>
+    </ul>
+    <h5>Body Screen</h5>
+    <label>
+      <input type="radio" class="body-skin" name="body-style" value="light">
+      Light
+    </label>
+    <label>
+      <input type="radio" class="body-skin" name="body-style" value="dark" checked="true">
+      Dark
+    </label>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="js/panel.js"></script>
+
+</body></html>
+<script>
+  // Wait for the document to be ready
+  $(document).ready(function() {
+    // Initialize Typed.js
+    var typed = new Typed('.multiText', {
+      strings: ['a professional Web developer .', 'a Junior Software Engineer .', 'a professional Web developer .', 'a Cyber Security, Machine Learning and IOT Enthusiast .'],
+      typeSpeed: 90, // typing speed in milliseconds
+      backSpeed: 50, // backspacing speed in milliseconds
+      backDelay: 2300,
+      loop: true // loop the animation
+    });
+  });
+</script>

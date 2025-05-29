@@ -22,9 +22,47 @@
 
   <link rel="stylesheet" href="css/panel.css" type="text/css">
 
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #128C7E;
+      transform: scale(1.1);
+    }
+
+    .whatsapp-float i {
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+    }
+  </style>
+
 </head>
 
 <body class="dark">
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/254707160906" class="whatsapp-float" target="_blank">
+    <i class="fa fa-whatsapp"></i>
+  </a>
 
   <!-- Pre Loader -->
   <div class="preloader">
@@ -318,7 +356,7 @@
                             • Software Development: Worked with the software development team in ensuring success in the development of websites and desktop applications for clients.
                           </p>
                         </div>
-                        <!-- Timeline Item end -->
+                                                <!-- Timeline Item end -->
                       </div>
                     </div>
                   </div>
@@ -763,7 +801,7 @@
   $(document).ready(function() {
     // Initialize Typed.js
     var typed = new Typed('.multiText', {
-      strings: ['a professional Web developer .', 'a Junior Software Engineer .', 'a professional Web developer .', 'a Cyber Security, Machine Learning and IOT Enthusiast .'],
+      strings: ['a professional Web developer .', 'an experienced Software Engineer .', 'an AI Expert.', 'a Cyber Security, Machine Learning and IOT Enthusiast .'],
       typeSpeed: 90, // typing speed in milliseconds
       backSpeed: 50, // backspacing speed in milliseconds
       backDelay: 2300,
